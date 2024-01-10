@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-color: antiquewhite;
+    height: 32px;
+    
+}
+.head{
+    margin: 0% 6%;
+    padding: 6px 0px;
+}
+.head p{
+    float: left;
+    font-size: 15px;
+}
+.account{
+    float: right;
+    font-size: 15px;
+    
+}
+.btn{
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 5px;
+}
+.btn:hover{
+    border: none;
+    color: red;
+    background-color: transparent;
+    font-size: 15px;
+    padding: 5px;
+}
+
+
+/* navigation bar and grid lauout */
+#gridclass{
+    width: 100%;
+    display: grid;
+  
+    grid-template-areas:
+    'nav nav nav nav'
+    'aside section section section '
+    'info info info info'
+    'footer footer footer footer';
+}
+
+#navigation-box{
+ grid-area: nav;
+}
+
+#asidebox{
+    grid-area: aside;
+
+}
+
+#sectionbox{
+    grid-area: section;
+}
+#informationbox{
+    grid-area: info;
+}
+.box{
+    border: 2px solid rgb(10, 0, 0);
+    border-top: none;
+    border-right:  none;
+    border-bottom: none;
+    padding-left: 10px;
+    margin-bottom: 20px;
+
+}
+#footerbox{
+    grid-area: footer;
+}
+
+/* navbaredit */
+#innernavbox{
+    display: flex;
+    margin: 0px 6%;
+}
+#innernavbox img{
+    height: 70px;
+    margin: 10px 0px;
+}
+#navbar{
+    
+    margin: 10px 20px;
+    width: 45%;
+    margin-left: 31%;
+    
+}
+#navbar ul{
+    display: flex;
+    margin-left: 38%;
+    
+    
+
+}
+#navbar ul li{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Anton', sans-serif;
+}
+#navbar ul li:hover{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    text-decoration: none;
+    list-style: none;
+    color: red;
+}
+#call{
+    display: inline-block;
+
+}
+ span{
+    margin:  auto 5px;
+    color: red;
+}
+#call{
+    margin: auto 5px;
+    font-family: 'Anton', sans-serif;
+    
+}
+ /* asede box css */
+
+
+ .redline{
+background-color: red;
+
+
+
+
+ }
+ .asideselect{
+    background: black;
+    color: white;
+    font-size: large;
+    font-family: 'Anton', sans-serif;
+    padding: 10px 20px;
+    margin-left: 23%;
+    width: 75%;
+    
+    
+ }
+ .asidecontent{
+    margin-left: 23%;
+ }
+ .asidecontent h3{
+    margin: 8px 0px;
+ }
+ .slidecontainer{
+    width: 90%;
+ }
+ .slidecontainer input{
+    width: 90%;
+ }
+ .asidecontent button{
+    border-radius: 15px;
+    padding: 9px 10px;
+    border: none;
+ }
+ .asidecontent button:hover{
+    border-radius: 15px;
+    padding: 9px 10px;
+    background-color: red;
+ }
+ .asidegrid{
+    display: grid;
+    /* width: 100%; */
+ }
+ .img{
+    height: 150px;
+    width: 70px;
+ }
+ .item{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px ;
+ }
+ .item:hover{
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px ;
+    border: 1px solid wheat;
+    background-color: rgb(242, 233, 221);
+ }
+ .message{
+    width: 120px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+ }
+ /* section editing */
+ .boxin{
+    border: 2px solid green;
+
+ }
+ #sectionred{
+    display: flex;
+    height:50px;
+   
+ }
+
+ .whitebox{
+    height: 45px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1px 20px;
+    margin-top: 1px;
+    margin-left: 10px;
+    
+ }
+ .sectionselect{
+    background-color: transparent;
+    border: none;
+    margin: 14px 5px;
+ }
+ .search{
+    width: 476px;
+    border: none;
+    height: 30px;
+ }
+ .material-symbols-outlined{
+    color: black;
+    padding: 5px 14px;
+ }
+.shopbox{
+    background-color: white;
+    position: absolute;
+    margin-left: 40px;
+    top: 126px;
+    right: 110px;
+    border-radius: 22px;
+    padding: 5px 0px;
+}
+.searchicon{
+    margin-top: 2px;
+}
+.sech3{
+    font-size: xx-large;
+    padding: 10px 20px;
+}
+#secgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    width: 92%;
+}
+.secitem{
+    display: flex;
+    
+}
+.secitem:hover{
+    display: flex;
+    box-sizing: border-box;
+    border: 2px solid rgb(243, 210, 210);
+    background-color: antiquewhite;
+    
+}
+.secmes{
+    width: 100px;
+    box-sizing: border-box;
+    padding: 15px 3px;
+}
+/* information section */
+
+
+.redlinelast{
+    background-color: red;
+    height: 20px;
+}
+.infomain{
+    margin: 2% 6%;
+}
+.infosec{
+    display: flex;
+    justify-content: space-evenly;
+}
+.infocon{
+    margin: 20px;
+}
+.infoli li:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.foot{
+    margin: 0% 6%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#footerbox{
+    background-color: antiquewhite;
+}
